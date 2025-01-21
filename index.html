@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Unlocal" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Unlocal</title>
+    <link rel="icon" type="image/svg" href="images/svg/fav.svg">
+</head>
+
+<body class="bg-[#2F3E3F] pt-[77.48px] md:pt-[127px] 2xl:pb-[244px]">
+    <!-- HEADER STYLING START -->
+    <header class="py-5 md:py-10 fixed w-full top-0 left-0 z-[99999999] bg-[#2F3E3F]">
+        <div class="container">
+            <nav class="flex justify-between items-center">
+                <div class="nav-logo max-w-[130px] md:max-w-[163px] w-full">
+                    <a class="" href="index.html"><img src="images/svg/nav-logo.svg" alt="logo"></a>
+                </div>
+                <div class="nav-toggle md:hidden ">
+                    <button class="w-9 h-6 flex flex-col justify-between ">
+                        <span class="w-full h-1 rounded-full bg-[#9CD4C2]"></span>
+                        <span class="w-full h-1 rounded-full bg-[#9CD4C2]"></span>
+                        <span class="w-1/2 h-1 ml-auto rounded-full bg-[#9CD4C2]"></span>
+                    </button>
+                </div>
+                <div
+                    class="nav-items flex flex-col md:flex-row items-end pr-5 md:pr-0 absolute right-[-200%] z-[0] md:static max-w-[640px] sm:max-w-80 md:max-w-[unset] w-full md:w-[unset] py-5 md:p-0 h-screen md:h-[unset] top-0 transition-all bg-[#2F3E3F] md:bg-[unset]">
+                    <button class="w-8 md:hidden nav-toggle-close">
+                        <svg fill="#9CD4C2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path
+                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                        </svg>
+                    </button>
+                    <ul class="flex flex-col md:flex-row gap-[20px] md:gap-9 lg:gap-12 pt-12 md:pt-0">
+                        <li>
+                            <a class="nav-link text-lg lg:text-xl lg:leading-[25.5px] font-normal hover:text-white transition-all font-2 text-white"
+                                href="#want-section-id">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-lg lg:text-xl lg:leading-[25.5px] font-normal hover:text-white transition-all text-[#9CD4C2]"
+                                href="#story-section-id">Our Story</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-lg lg:text-xl lg:leading-[25.5px] font-normal hover:text-white transition-all text-[#9CD4C2]"
+                                href="#drop-section-id">Contact</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-lg lg:text-xl lg:leading-[25.5px] font-normal hover:text-white transition-all text-[#9CD4C2]"
+                                href="#every-section-id">Order Request</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- HEADER STYLING FINISHED -->
+    <!-- WANT STYLING START -->
+    <section id="want-section-id" class="want-section pb-9 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="container px-0 sm:px-5">
+            <div
+                class="want-inner flex flex-col sm:before:rounded-lg gap-6 sm:gap-10 relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:content-[unset] lg:before:content-['']">
+                <div
+                    class="want-info md:py-[53px] px-5 sm:px-0 order-1 lg:-order-1 lg:absolute md:max-w-[707px] w-full h-full flex flex-col justify-center gap-[20px] lg:gap-[55px]">
+                    <h1
+                        class="text-[45px] sm:text-[75px] md:text-[95px] leading-[42px] sm:leading-[65px] md:leading-[78px] text-[#DEBF93] uppercase font-3">
+                        If you want it
+                        to take you
+                        to a better place,
+                        <span class="text-white font-3">
+                            it needs to be sourced from a better place.
+                        </span>
+                    </h1>
+                    <p class="text-[13px] sm:text-xl sm:leading-6 text-white">Exclusively-sourced and imported <span
+                            class="font-2 text-white"> Mexican </span> tequilas</p>
+                </div>
+                <div class="want-img w-full max-w-[1000px] ml-auto">
+                    <img class="sm:rounded-lg" src="images/want-img.jpg" alt="want-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- WANT STYLING FINISHED -->
+    <!-- EVERY STYLING START -->
+    <section id="every-section-id" class="every-section pb-9 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="container px-0 sm:px-5">
+            <div
+                class="every-inner sm:before:rounded-lg flex flex-col gap-6 sm:gap-10 relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:content-[unset] lg:before:content-['']">
+                <div
+                    class="every-info lg:pl-12 px-5 sm:px-0 md:py-[53px] order-1 lg:-order-1 lg:absolute lg:max-w-[540px] w-full h-full flex flex-col justify-between gap-[20px] lg:gap-[55px]">
+                    <h2
+                        class="text-[38px] sm:text-[60px] md:text-[70px] lg:text-[54px] leading-[36px] sm:leading-[54px] md:leading-[62px] lg:leading-[49px] text-[#9cd4c2] lg:text-[#036042] uppercase font-3">
+                        Every sip should be a trip.
+                    </h2>
+                    <div class="flex flex-col gap-[14px] md:gap-[38px]">
+                        <p
+                            class="text-[14px] sm:text-lg md:text-[21px] md:leading-[25.53px] text-white lg:text-[#036042]">
+                            Whether
+                            it's the smoky
+                            allure of
+                            mezcal with its deep, earthy notes, or the crisp, refined elegance of tequila, every
+                            bottle should tell a story.</p>
+                        <p
+                            class="text-[14px] sm:text-lg md:text-[21px] md:leading-[25.53px] text-white lg:text-[#036042]">
+                            Unlocal
+                            Liquors
+                            sources and imports a
+                            selection of exclusive Mexican alcohol so you can get a<span
+                                class="font-2 text-[#9cd4c2] lg:text-[#036042]">
+                                taste of Mexico </span> without the jetlag.</p>
+                    </div>
+                    <div class="every-btn flex justify-start pt-2 md:pt-0">
+                        <a class="text-base md:text-[20px] flex items-center justify-center md:leading-[25.53px] h-[50px] md:h-[58px] text-[#036042] bg-white px-[22px] rounded-lg transition-all hover:text-white hover:bg-[#036042]"
+                            href="#drop-section-id">Request an order</a>
+                    </div>
+                </div>
+                <div class="every-img w-full max-w-[848px] ml-auto">
+                    <img class="sm:rounded-lg" src="images/every-img.jpg" alt="every-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EVERY STYLING FINISHED -->
+    <!-- WHOLE STYLING START -->
+    <section id="whole-section-id" class="whole-section pb-9 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="container px-0 sm:px-5">
+            <div
+                class="whole-inner flex flex-col sm:before:rounded-lg gap-6 sm:gap-10 relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:content-[unset] lg:before:content-['']">
+                <div
+                    class="whole-info lg:pl-12 md:py-[40px] px-5 sm:px-0 order-1 lg:-order-1 lg:absolute w-full h-full flex flex-col justify-center gap-[20px] lg:gap-[30px]">
+                    <h2
+                        class="text-[39px] sm:text-[60px] md:text-[70px] leading-[40px] sm:leading-[55px] md:leading-[63px] text-[#ddbf93] lg:text-[#793A07] uppercase font-3">
+                        A WHOLE LOT OF WHOLESALE POURFECTION
+                    </h2>
+                    <p class="text-[15px] sm:text-xl md:text-xl sm:leading-[25.53px] text-white lg:text-[#793A07]">We
+                        specialize in
+                        delivering
+                        through wholesale channels, and<br class="hidden md:block"> bring the<span
+                            class="font-2 text-[#ddbf93] lg:text-[#793A07]"> best of
+                            Mexico </span> right to the heart of New York.</p>
+                </div>
+                <div class="whole-img w-full max-w-[1200px] h-[200px] sm:h-[300px] lg:h-[unset] ml-auto">
+                    <img class="sm:rounded-lg h-full object-cover" src="images/whole-img.jpg" alt="whole-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- WHOLE STYLING FINISHED -->
+    <!-- STORY STYLING START -->
+    <section id="story-section-id" class="story-section pb-9 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="container px-0 sm:px-5">
+            <div
+                class="story-inner flex flex-col sm:before:rounded-lg gap-6 sm:gap-10 relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:content-[unset] lg:before:content-['']">
+                <div
+                    class="story-info md:py-[53px] px-5 sm:px-0 order-1 lg:-order-1 lg:absolute lg:max-w-[519px] w-full h-full flex flex-col justify-center gap-[20px] lg:gap-[35px] xl:gap-[55px]">
+                    <h2 class="text-[34px] sm:text-[40px] md:text-[47.12px] md:leading-[60.16px] text-[#9CD4C2] font-2">
+                        Our Story
+                    </h2>
+                    <div class="flex flex-col gap-[14px] xl:gap-[38px]">
+                        <p class="text-base md:text-[20px] md:leading-[25.5px] text-white">If you’re on here, chances
+                            are you’d rather
+                            want a good <span class="font-2 text-[#9CD4C2]"> cocktail recipe</span> instead of reading a
+                            biography.
+                            <span class="font-bold text-white"> So we’ll keep it short, </span> and then give you the
+                            recipe you want. Deal? (We knew we’d like
+                            you:)
+                        </p>
+                        <p class="text-base md:text-[20px] md:leading-[25.5px] text-white">We always were into good
+                            alcohol. It would be
+                            weird if we weren’t. </p>
+                        <p class="text-base md:text-[20px] md:leading-[25.5px] text-white">Alcohol is a beverage of
+                            special moments.
+                            <span class="font-2 text-[#DEBF93]">Connection.</span> Happiness. Laughs shared. Occasions
+                            celebrated. And we wanted to make those moments even more special.
+                        </p>
+                        <p class="text-base md:text-[20px] md:leading-[25.5px] text-white">We source the best for the
+                            best - <span class="font-2 text-white">you. </span></p>
+                    </div>
+                </div>
+                <div class="story-img w-full max-w-[1147px] ml-auto">
+                    <img class="sm:rounded-lg" src="images/story-img.jpg" alt="story-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- STORY STYLING FINISHED -->
+    <!-- PROMISED STYLING START -->
+    <section id="promised-section-id" class="promised-section pb-9 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="container px-0 sm:px-5">
+            <div
+                class="promised-inner flex flex-col sm:before:rounded-lg gap-6 sm:gap-10 relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:content-[unset] lg:before:content-['']">
+                <div
+                    class="promised-info md:py-[53px] lg:pl-12 px-5 sm:px-0 order-1 lg:-order-1 lg:absolute w-full h-full flex flex-col lg:flex-row justify-between gap-6 lg:gap-0">
+                    <div class="promised-info-left flex flex-col gap-[15px] sm:gap-[24px]">
+                        <p class="text-base sm:text-xl sm:leading-[25.5px] text-[#fff] lg:text-[#036042]">As promised:
+                        </p>
+                        <h2
+                            class="text-[#9CD4C2] lg:text-[#042A1E] font-2 font-light text-[30px] sm:text-[40px] md:text-[47.12px] md:leading-[60.16px]">
+                            Tequila Sunrise
+                            Twist</h2>
+                        <div class="promised-list flex flex-col sm:flex-row gap-[30px] xl:gap-[63px]">
+                            <div class="promised-list-inner max-w-[215px] w-full">
+                                <p class="font-bold text-base text-[#fff] lg:text-[#036042]">Ingredients:</p>
+                                <ul class="pl-5">
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-disc">2 oz
+                                        tequila</li>
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-disc">4 oz
+                                        orange juice
+                                    </li>
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-disc">1/2 oz
+                                        grenadine</li>
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-disc">1/2 oz
+                                        lime juice
+                                    </li>
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-disc">Ice
+                                    </li>
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-disc">Orange
+                                        slice and
+                                        maraschino<br>
+                                        cherry for garnis</li>
+                                </ul>
+                            </div>
+                            <div class="promised-list-inner w-full max-w-[401px]">
+                                <p class="font-bold text-base text-[#fff] lg:text-[#036042]">Directions:</p>
+                                <ul class="pl-5">
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-decimal">
+                                        Fill a tall glass
+                                        with ice.</li>
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-decimal">
+                                        Pour in the
+                                        tequila and orange juice.</li>
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-decimal">
+                                        Stir gently to
+                                        combine.</li>
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-decimal">
+                                        Slowly pour the
+                                        grenadine over the back of a spoon so it sinks to the bottom and creates a
+                                        sunrise effect.</li>
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-decimal">Add
+                                        a splash of
+                                        lime juice for a zesty twist.</li>
+                                    <li class="text-sm leading-[17.49px] text-[#fff] lg:text-[#036042] list-decimal">
+                                        Garnish with an
+                                        orange slice and a maraschino cherry.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promised-info-right pr-12 lg:self-end">
+                        <div class="promised-btn flex">
+                            <a download target="_blank"
+                                class="text-base md:text-[20px] flex gap-[10px] items-center justify-center md:leading-[25.53px] h-[50px] md:h-[58px] text-[#036042] bg-white px-[22px] rounded-lg transition-all hover:text-white hover:bg-[#036042] group"
+                                href="sample.pdf"><i
+                                    class="fa-regular fa-arrow-down text-[#036042] group-hover:text-white"></i>
+                                Download recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="promised-img w-full max-w-[718px] ml-auto z-[-1] relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:content-[unset] lg:before:content-[''] ">
+                    <img class="sm:rounded-lg" src="images/promised-img.jpg" alt="promised-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PROMISED STYLING FINISHED -->
+    <!-- DROP STYLING START -->
+    <section id="drop-section-id" class="drop-section pb-9 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="container px-0 sm:px-5">
+            <div
+                class="drop-inner flex flex-col sm:before:rounded-lg gap-6 sm:gap-10 relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:content-[unset] lg:before:content-['']">
+                <div
+                    class="drop-info md:py-[53px] lg:py-10 xl:py-[53px] px-5 sm:px-0 order-1 lg:-order-1 lg:absolute md:max-w-[707px] w-full h-full flex flex-col justify-center gap-[15px] lg:gap-[28px]">
+                    <h2
+                        class="text-[45px] sm:text-[75px] md:text-[64px] leading-[42px] sm:leading-[65px] md:leading-[54px] text-[#DEBF93] uppercase font-3 flex flex-col">
+                        <span class="text-white font-3">
+                            Drop a message.
+                        </span>
+                        Alcohol you later.
+                    </h2>
+                    <div class="drop-form-box lg:max-w-[476px] w-full">
+                        <form>
+                            <div class="drop-form-inner flex flex-col gap-[18px]">
+                                <div class="input-box">
+                                    <input
+                                        class="w-full px-[15px] md:px-[22px] border focus:border-[#ffffff] transition-all bg-transparent h-[50px] md:h-[58px] rounded-lg placeholder:text-base md:placeholder:text-xl text-white text-base placeholder:text-[#DEBF93] border-[#DEBF93]"
+                                        type="text" placeholder="Name">
+                                </div>
+                                <div class="input-box">
+                                    <input
+                                        class="w-full px-[15px] md:px-[22px] border focus:border-[#ffffff] transition-all bg-transparent h-[50px] md:h-[58px] rounded-lg placeholder:text-base md:placeholder:text-xl text-white text-base placeholder:text-[#DEBF93] border-[#DEBF93]"
+                                        type="email" placeholder="Email">
+                                </div>
+                                <div class="input-box">
+                                    <textarea
+                                        class="w-full h-[155px] lg:h-[100px] xl:h-[155px] pt-3 md:pt-4 px-[15px] md:px-[22px] resize-none border focus:border-[#ffffff] transition-all bg-transparent rounded-lg placeholder:text-base md:placeholder:text-xl text-white text-base placeholder:text-[#DEBF93] border-[#DEBF93]"
+                                        name="" id="" placeholder="Message"></textarea>
+                                </div>
+                                <div class="drop-btn">
+                                    <button type="submit"
+                                        class="w-full text-base md:text-[20px] flex items-center justify-center md:leading-[25.53px] h-[50px] md:h-[58px] text-black bg-white px-[22px] rounded-lg transition-all hover:text-white hover:bg-[#DEBF93]">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="drop-img w-full ml-auto">
+                    <img class="sm:rounded-lg" src="images/drop-img.jpg" alt="drop-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- DROP STYLING FINISHED -->
+    <!-- FOTTER STYLING START -->
+    <footer class="footer-section wow fadeInUp" data-wow-delay="0.3s">
+        <div class="container">
+            <div
+                class="footer-inner flex flex-col gap-5 md:gap-[136px] bg-[url('images/svg/footer-bg.svg')] bg-no-repeat">
+                <div class="footer-info-box flex flex-col items-center md:items-end gap-3 md:gap-5">
+                    <div class="footer-mail flex flex-col items-end gap-3 md:gap-0">
+                        <a class="text-white text-[15.95px] leading-[19.3px] font-normal text-center md:text-end border-b border-transparent hover:border-white transition-all"
+                            href="mailto:order@liquors.unlocal.com">order@liquors.unlocal.com</a>
+                        <a class="text-white text-[15.95px] leading-[19.3px] font-normal text-center md:text-end border-b border-transparent hover:border-white transition-all"
+                            href="tel:822.455.2344">822.455.2344</a>
+                    </div>
+                    <div class="footer-address">
+                        <a class="text-white text-[15.95px] font-normal leading-[19.3px]  text-center md:text-end border-b border-transparent hover:border-white transition-all"
+                            target="_blank" href="https://maps.app.goo.gl/kBecCA8CPoQFZHBP7">321 NY-59 SUITE E4,
+                            TALLMAN,
+                            NY 10982</a>
+                    </div>
+                    <div
+                        class="footer-quote text-xl md:text-[26.58px] leading-[31.89px] text-center md:text-end text-[#9CD4C2] font-2 font-light">
+                        High spirits shouldn’t come<br> with a high price tag.
+                    </div>
+                </div>
+                <div class="footer-design-box text-base md:text-xl text-center md:text-start text-white pb-[22px]">
+                    Designed by <a class="underline" target="_blank" href="https://d7m.tg/">D7mtg</a></div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOTTER STYLING FINISHED -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="script/wow.js"></script>
+    <script type="text/javascript" src="script/icon_fonts.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

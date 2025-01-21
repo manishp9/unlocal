@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Baystar';
+    src: url('BaystarScriptPERSONALUSEONLY-BoldPERSONALUSEONLY.woff2') format('woff2'),
+        url('BaystarScriptPERSONALUSEONLY-BoldPERSONALUSEONLY.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baystar';
+    src: url('BaystarScriptPERSONALUSEONLY-LightPERSONALUSEONLY.woff2') format('woff2'),
+        url('BaystarScriptPERSONALUSEONLY-LightPERSONALUSEONLY.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baystar';
+    src: url('BaystarScriptPERSONALUSEONLY-MediumPERSONALUSEONLY.woff2') format('woff2'),
+        url('BaystarScriptPERSONALUSEONLY-MediumPERSONALUSEONLY.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+

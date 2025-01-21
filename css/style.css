@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Onest:wght@100..900&display=swap');
+@import url(../fonts/font-style.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Onest", system-ui;
+    color: #000;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+section{
+    scroll-margin-top: 127px;
+}
+
+input:focus,
+input:focus-visible,
+input:focus-within,
+button:focus,
+button:focus-visible,
+button:focus-within,
+textarea:focus,
+textarea:focus-visible,
+textarea:focus-within {
+    outline: unset;
+    box-shadow: unset;
+}
+
+.font-2 {
+    font-family: "Baystar", sans-serif;
+}
+
+.font-3 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.container {
+    margin: auto;
+    padding: 0 20px;
+}
+
+header.scrolled {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.want-inner:before {
+    background: linear-gradient(270deg, rgba(47, 62, 63, 0) 0, #2F3E3F 80%);
+}
+
+.drop-inner:before {
+    background: linear-gradient(270deg, rgba(47, 62, 63, 0) 0, #2F3E3F 80%);
+}
+
+.every-inner:before {
+    background: linear-gradient(270deg, rgba(156, 212, 194, 0) 22%, #9CD4C2 70%);
+}
+
+.whole-inner:before {
+    background: linear-gradient(270deg, rgba(222, 191, 147, 0) 17.04%, rgba(222, 191, 147, 0.93) 58.16%);
+}
+
+.story-inner:before {
+    background: linear-gradient(270deg, rgba(47, 62, 63, 0) 28.47%, #2F3E3F 69.63%);
+}
+
+.promised-inner:before {
+    /* background: linear-gradient(270deg, rgba(156, 212, 194, 0) 0%, #9CD4C2 100%); */
+    mix-blend-mode: color;
+    background: #9CD4C2;
+}
+
+.promised-img:before {
+    background: linear-gradient(270deg, rgba(156, 212, 194, 0) 0%, #9CD4C2 100%);
+}
+
+/*  STYLING START */
+/*  STYLING FINISHED */
